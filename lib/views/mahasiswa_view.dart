@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/mahasiswa_controller.dart';
-import 'package:flutter/cupertino.dart';
 
 class MahasiswaView extends StatelessWidget {
   MahasiswaView({super.key});

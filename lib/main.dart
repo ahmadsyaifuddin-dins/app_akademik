@@ -5,14 +5,16 @@ import 'views/add_mahasiswa_view.dart';
 import 'views/edit_mahasiswa_view.dart';
 
 void main() {
-  runApp(BiodataApp());
+  runApp(AkademikApp());
 }
 
-class BiodataApp extends StatelessWidget {
+class AkademikApp extends StatelessWidget {
+  const AkademikApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Mahasiswa App',
+      title: 'Akademik App',
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       getPages: [
