@@ -7,7 +7,7 @@ import '../models/mahasiswa.dart';
 
 class EditMahasiswaView extends StatefulWidget {
   final int id;
-  const EditMahasiswaView({Key? key, required this.id}) : super(key: key);
+  const EditMahasiswaView({super.key, required this.id});
 
   @override
   State<EditMahasiswaView> createState() => _EditMahasiswaViewState();

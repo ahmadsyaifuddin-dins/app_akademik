@@ -63,7 +63,7 @@ class MahasiswaController extends GetxController {
       }
     } catch (e) {
       print('Error add: ${e.toString()}');
-      throw e;
+      rethrow;
     } finally {
       isLoading(false);
     }
@@ -86,7 +86,7 @@ class MahasiswaController extends GetxController {
       }
     } catch (e) {
       print('Error update: ${e.toString()}');
-      throw e;
+      rethrow;
     } finally {
       isLoading(false);
     }
@@ -103,7 +103,7 @@ class MahasiswaController extends GetxController {
       }
     } catch (e) {
       print('Error delete: ${e.toString()}');
-      throw e;
+      rethrow;
     } finally {
       isLoading(false);
     }

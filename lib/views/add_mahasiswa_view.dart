@@ -6,7 +6,7 @@ import '../controllers/mahasiswa_controller.dart';
 import '../models/mahasiswa.dart';
 
 class AddMahasiswaView extends StatefulWidget {
-  const AddMahasiswaView({Key? key}) : super(key: key);
+  const AddMahasiswaView({super.key});
 
   @override
   State<AddMahasiswaView> createState() => _AddMahasiswaViewState();
